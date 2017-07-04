@@ -1,0 +1,14 @@
+{
+    "name":"pdocktestglab",
+    "version":"1.0.0",
+    "author":"Beckio",
+    "slug":"pdocktestglab",
+    "createPackageDirectory" : false,
+    "private":true,
+    "installPaths":{
+        "presidecms":"preside"
+    },
+    "dependencies":{
+        "presidecms":"stable"
+    }
+}
