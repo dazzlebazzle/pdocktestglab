@@ -10,6 +10,7 @@
       <Valve className="org.apache.catalina.valves.RemoteIpValve"  />
       <Host name="127.0.0.1" appBase="webapps" autoDeploy="false">
         <Context path="" docBase="/var/www/website" />
+        <Context path="/testapp" docBase="/var/www/support/tests" />
       </Host>
     </Engine>
   </Service>
