@@ -1,0 +1,18 @@
+version: '2'
+services:
+  db:
+    env_file: .env
+    image: mariadb:10.1
+    ports:
+      - "3306:3306"    
+    volumes:
+      - ./data/db:/var/lib/mysql
+  demositeo:
+    env_file: .env
+    build: .
+    links:
+      - db:db
+    ports:
+      - "8080:8080"
+    volumes:
+      - /c/Users/martin/dev/pdocktestglab/website:/var/www/website

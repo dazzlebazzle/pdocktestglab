@@ -1,5 +1,5 @@
 component extends="preside.system.Bootstrap" {
 	
-	super.setupApplication( id = "pdocktestglab" );
+	super.setupApplication( id = "demo-site" );
 
 }
