@@ -16,5 +16,5 @@ services:
       - "8080:8080"
     volumes:
       - /c/Users/martin/dev/pdocktestglab/website:/var/www/website
-      - /c/Users/martin/dev/pdocktestglab/support/tests:/var/www/support/tests
+      - /c/Users/martin/dev/pdocktestglab/support:/var/www/support
       - /c/Users/martin/dev/pdocktestglab/preside:/var/www/preside
