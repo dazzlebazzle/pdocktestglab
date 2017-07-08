@@ -5,3 +5,4 @@ COPY /resources/lucee-server.xml /opt/lucee/server/lucee-server/context/lucee-se
 RUN wget http://www.ortussolutions.com/parent/download/commandbox/type/bin -O box.zip && \
 	unzip box.zip && \
 	mv box /usr/sbin/box
+
