@@ -21,4 +21,4 @@ build:
 test1:
  stage: test
  script: 
-   - "./support/tests/test.sh"
+   - "./support/tests/test"
